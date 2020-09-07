@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+	.fix-header{
+		.sidebar{
+			transition: 1.2s;
+		}
+		.navbar-static-top {
+			position: relative;
+		}
+		#page-wrapper {
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+	}
+}

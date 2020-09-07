@@ -1,0 +1,2 @@
+<?php
+ namespace frontend\models\news;use Yii;class FAlbumImages extends \yii\db\ActiveRecord{public static function tableName(){return 'tbl_album_images';}public function rules(){return[[['album_id','image','status'],'required'],[['album_id','status'],'integer'],[['descriptions'],'string'],[['sort'],'number'],[['image','title'],'string','max'=>255],];}public function attributeLabels(){return['id'=>'ID','album_id'=>'Album ID','image'=>'Image','sort'=>'sort','title'=>'Title','descriptions'=>'Descriptions','status'=>'Status',];}}

@@ -1,0 +1,73 @@
+.owl-nav{position:absolute;top:40%;width:100%}
+.owl-nav .owl-prev{margin-right:88%!important}
+.owl-nav span{font-size:40px!important}
+#carousel-custom-dots{text-align:center}
+.area-price{color:red;font-weight:600}
+.center ul li{text-align:left}
+.center .downloads_news li{border-bottom:1px dotted #585353a3}
+.center .downloads_news li>a{float:right}
+.area-price .m_default{margin-bottom:15px}
+.area-price .m_default label.installment{background:#d0021b;position:relative;display:inline-block;font-size:11px;color:#fff;font-weight:600;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;padding:0 5px 0 8px;margin:0 0 5px 5px;height:18px;display:none}
+.area-price input.form-control#number{font-weight:600}
+.area-price .item{position:relative;background:#fff;border:1px solid #ddd;-moz-box-shadow:0 2px 3px 0 rgba(0,0,0,0.15);-webkit-box-shadow:0 2px 3px 0 rgba(0,0,0,0.15);box-shadow:0 2px 3px 0 rgba(0,0,0,0.15);-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;width:24.5%;float:left;text-align:center;padding:10px;margin-right:10px;margin-bottom:15px;text-decoration:none}
+.area-price .item.active{border:1px solid #f89008}
+.area-price .item.active span{font-weight:700}
+.area-price .item.active i.iconmobile-opt{background:url(/images/icons/check.png);width:14px;height:14px}
+.area-price .item span{color:#333}
+.area-price .item strong{font-size:16px;display:block;margin-top:5px;color:#e10c00}
+.area-price .item i.iconmobile-opt{background-position:-380px -30px;width:16px;height:16px;display:inline-block;vertical-align:sub;margin-right:5px;background-image:url(/images/icons/icondesktop2022@1x.png?v=003);background-repeat:no-repeat;line-height:30px}
+.btn-primary {
+    background-color: #e1167f;
+    border-color: #e1167f;
+}
+.btn-primary:hover {
+    color: red;
+    background-color: #e1167f;
+    border-color: #e1167f;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle{
+    color: red;
+    background-color: #e1167f;
+    border-color: #e1167f;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0;
+}
+.nav-link {
+    padding: 0.1rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;text-transform: uppercase;
+}
+.inside .thumbnail h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+.inside .thumbnail .caption p{margin-bottom:0;}
+.inside .views{
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+.inside h1 {font-size: 1.3rem;font-weight: bold;}
+.inside .product-detail{margin-top:1.4rem;}
+.inside .product-detail .nav-link{padding-top:0.6rem;}
+.inside .product-detail p{margin-bottom:0.5rem;}
+.inside .product-detail .after-post-tags, .product-topic h2, .news-topic h2, .product-more h2 {
+    padding: 0.1rem 1rem;
+}
+.nav-tabs {border-bottom: 1px solid #dee2e6;margin-bottom: 1.2rem;}
+.attribute ul{margin-bottom:0;}
+.attribute ul li {
+    list-style: none;text-align:left;
+    margin-bottom: 0;font-size:0.9rem;
+}
+.inside .product-detail h2{float:none;font-size: 1.2rem;font-weight: bold;}
+.inside .product-detail h3{font-size: 1rem;font-weight: bold;}
+.inside .area-price{margin: 0.5rem 0;}
+.inside .area-price del{padding-left:0.8rem;}
+.inside .desc{margin-top:0.6rem;}
+.inside .desc p{margin-bottom:0;font-size:0.9rem;}
+.inside .desc p span{font-size:0.9rem;}
+.inside .product-more .attr,.product-grid-1 .desc{height: 1.2rem;overflow: hidden;}
+.inside table tr td{border: 0.09rem solid #ccc;padding: 0.3rem;}
+.inside button.owl-dot{border:1px solid #ccc;}

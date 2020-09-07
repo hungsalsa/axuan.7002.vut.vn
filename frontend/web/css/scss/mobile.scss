@@ -1,0 +1,13 @@
+.yamm{
+	.navbar-nav{
+		&>li{
+			&>.dropdown-menu {
+				display: inline-block;
+				padding-left: 12px;
+			}
+		}
+	}
+}
+.yamm .dropdown-menu .yamm-content .col-menu ul.links{
+	padding-left: 8px;
+}

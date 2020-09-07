@@ -1,0 +1,26 @@
+ReWriteEngine on
+ReWritecond %{REQUEST_URL} !^public
+
+# End the processing, if a rewrite already occurred
+# RewriteRule ^(frontend|quantri)/web/ - [L]
+RewriteRule ^quantri(.*)$ quantri/web/$1 [L,PT]
+# handle the case of frontend
+RewriteRule ^(.*)$ frontend/web/$1 [L,QSA]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_value output_buffering on
+</IfModule>
+<IfModule lsapi_module>
+   php_value output_buffering on
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>

@@ -1,0 +1,2 @@
+ <span class="cart-top-checkout"><a href="/shopping/gio-hang">Thanh toán ngay</a></span>
+ "***"<?= ($infoCart)? count($infoCart) : 0 ?>"***"<?= ($infoCart['price_modal']==0) ? 'Liên hệ':$infoCart['price_modal'].' đ' ?>

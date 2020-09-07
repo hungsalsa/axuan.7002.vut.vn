@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#imageFile").click(function(e){$("#myModal").modal()}),$("#myModal").on("hidden.bs.modal",function(){imgsrc=$("#imageFile").val(),$("#previewImage").attr("src",imgsrc)})});

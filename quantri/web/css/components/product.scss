@@ -1,0 +1,128 @@
+%disnone{display: none;}
+%transition{
+	-webkit-transition: all .2s;
+    -webkit-transition: font-size .2s;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 15px 0 10px;
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+    transition: all .3s ease 0s;
+}
+#product_short_introduction{
+	@extend %disnone;
+}
+#modal.in.fade{
+	@extend %transition;
+}
+#product_time_status{
+	@extend %disnone;
+	-webkit-transition: all .6s;
+    -webkit-transition: font-size .6s;
+    ransition: all 0.6s ease 0s;
+	padding: 0;
+	span{
+		padding: 8px;
+		i.glyphicon{
+			font-size: 10px;
+		}
+	}
+	label.close{
+		padding: 9px;
+		cursor: pointer;
+		white-space: nowrap;
+		i{
+			margin: 0;
+		}
+		&:hover i{
+			// transform: scale(1.5);
+			font-size: 1.5em;
+		}
+	}
+}
+.panel{
+	&.panel-default{
+		.panel-heading{
+			padding: 7px 25px;
+			font-weight: 600;
+			.panel-action.active a{
+				opacity: 1;
+			}
+		}
+		.panel-body{
+			padding: 10px;
+		}
+		span.boder-buttom{
+			border-top: 1px solid #dfe4e8;
+			border-top-width: 1px;
+			border-top-style: solid;
+			border-top-color: rgb(223, 228, 232);
+			padding: 10px;
+		}
+		// #product_inventory{
+		// 	@extend %disnone;
+		// }
+	}
+	&.panel-info,&.panel-primary,&.panel-default{
+		&.attribute{
+			.panel-heading{
+				position: relative;
+			}
+			.panel-action{
+				position: absolute;
+				right: 0;
+				top: 8%;
+				&.actioncollapse{
+					width: 95%;
+					padding: 4px;
+					label{
+						width: 92%;
+						font-weight: 600;
+					}
+				}
+				.btn-circle.btn-lg{
+					width: auto;
+					@extend %transition;
+					&:hover{
+						background: #ff9600;;
+						color: #fff;
+						opacity:1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.modal{
+	&#modalAttribute{
+		.modal-content{
+			width: 60%;
+			margin: 100px auto;
+		}
+	}
+}
+/* 
+
+tr#body_images_list{
+	td{
+		border: 2px dashed green;
+		margin-right: 3px;
+	}
+	img{max-height: 80px;}
+	label.removeimagelist{
+		// padding: 10px;
+		// margin-left: 5px;
+		cursor: pointer;
+		i{
+			transition: 0.8s;
+			font-size: 41px;
+			font-weight: bold;
+		}
+		&:hover i{
+			// font-size: 20px;
+			transform: scale(2);
+		}
+	}
+} */
